@@ -12,7 +12,7 @@ while True:
 #            (decide which math function to call based on first token)
 
     num1 = int(token[1])
-
+    num2 = 0
     if len(token) == 3:
         num2 = int(token[2])
 
